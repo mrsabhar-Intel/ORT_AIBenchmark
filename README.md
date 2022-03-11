@@ -2,12 +2,13 @@
 Simple benchmark to evaluate execution providers 
 
 ORT package compilation 
--build.bat --config Release --use_cuda --cudnn_home C:\Users\manujs\Downloads\cudnn --cuda_home  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5" --cuda_version 11.5 --use_openvino GPU_FP16_NO_PARTITION --use_dml --build_shared_lib
+-build.bat --config Release --use_cuda --cudnn_home cudnn_package --cuda_home  cuda_package --cuda_version 11.5 --use_openvino GPU_FP16_NO_PARTITION --use_dml --build_shared_lib
 
-ORT version -- https://github.com/Microsoft/onnxruntime
-OpenVINO version - https://github.com/openvinotoolkit/openvino
-Install NVIDIA(R) CUDA based on documentation from onnxruntime - https://onnxruntime.ai/docs/build/eps.html#cuda
-Intel OpenVINO - https://onnxruntime.ai/docs/build/eps.html#openvino
+ORT  -- 
+    ONNX Runtime - https://github.com/Microsoft/onnxruntime
+    OpenVINO version - https://github.com/openvinotoolkit/openvino
+    Install NVIDIA(R) CUDA based on documentation from onnxruntime - https://onnxruntime.ai/docs/build/eps.html#cuda
+    Intel OpenVINO - https://onnxruntime.ai/docs/build/eps.html#openvino
 
 
 Linkers - 
